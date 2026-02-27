@@ -4,4 +4,11 @@
 - Minimal Vim configuration
 
 ## Installation
-Copy `.vimrc` file to `$HOME`
+```
+git clone git@github.com:Mbuzak/os-config.git ~/git
+chmod u+x install.sh
+./install.sh
+```
+
+- Config vim
+Run `:PlugInstall` in vim
