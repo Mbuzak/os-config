@@ -5,8 +5,8 @@
 
 ## Installation
 ```
-git clone git@github.com:Mbuzak/os-config.git ~/git
-chmod u+x install.sh
+git clone git@github.com:Mbuzak/os-config.git ~/git/os-config
+cd ~/git/os-config
 ./install.sh
 ```
 
