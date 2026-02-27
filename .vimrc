@@ -12,3 +12,7 @@ set noexpandtab
 set shiftwidth=4
 set tabstop=4
 set autoindent
+
+call plug#begin()
+Plug 'tpope/vim-surround'
+call plug#end()
