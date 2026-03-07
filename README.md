@@ -8,11 +8,10 @@ My OS configuration
 - Minimal Vim config
 
 ## Installation
-```
-git clone git@github.com:Mbuzak/os-config.git ~/git/os-config
-cd ~/git/os-config
-./install.sh
-```
+1. Download repository
+2. Check `install.sh` and install packages you want.
 
-- Config vim
-Run `:PlugInstall` in vim
+## Configuration
+To lauch Vim configuration run: `./config.sh`
+
+Then open `vim` and type `:PlugInstall`
