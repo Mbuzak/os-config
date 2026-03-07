@@ -1,7 +1,11 @@
 # OS config
+My OS configuration
 
-## Features
-- Minimal Vim configuration
+## Goal
+- OS memory less than 16 GB *(Arch Linux)*
+- Nice looking environment *(KDE Plasma 6)*
+- Efficient terminal *(Alacritty)*
+- Minimal Vim config
 
 ## Installation
 ```
