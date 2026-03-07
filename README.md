@@ -12,6 +12,7 @@ My OS configuration
 2. Check `install.sh` and install packages you want.
 
 ## Configuration
-To lauch Vim configuration run: `./config.sh`
-
-Then open `vim` and type `:PlugInstall`
+1. Install 0xProtoNerdFont-Regular.ttf and move to `$HOME/.local/fonts`
+2. Update fonts `fc-cache -fv`
+3. Lauch Vim and Alacritty configuration - run `./config.sh`
+4. Open `vim` and type `:PlugInstall`
