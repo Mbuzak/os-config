@@ -1,6 +1,46 @@
 #!/bin/bash
 
-ln -s $HOME/git/os-config/.vimrc $HOME/.vimrc
+# List of packages which I found useful
 
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-	https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+## System
+base
+base-devel
+linux
+linux-firmware
+efibootmgr
+grub
+sof-firmware
+vim
+networkmanager
+net-tools
+inetutils
+libxcrypt-compat
+
+### Optional
+os-prober
+
+## KDE Plasma 6 + sddm
+plasma-desktop
+plasma-nm
+plasma-pa
+sddm
+
+## Terminal
+alacritty tmux
+wget man-db mc btop
+zip unzip
+git openssh
+
+## Basic software
+firefox
+vlc
+gimp
+
+## Multimedia
+blender
+kdenlive
+dia
+inkscape
+
+## C/C++ development
+cmake
