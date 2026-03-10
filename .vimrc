@@ -15,18 +15,15 @@ set tabstop=4
 set autoindent
 
 call plug#begin()
+Plug 'ghifarit53/tokyonight-vim'
 Plug 'tpope/vim-surround'
-Plug 'vim-fuzzbox/fuzzbox.vim'
 Plug 'ryanoasis/vim-devicons'
+Plug 'junegunn/fzf.vim'
 call plug#end()
 
-nnoremap <silent> <leader>fb :FuzzyBuffers<CR>
-nnoremap <silent> <leader>fc :FuzzyCommands<CR>
-nnoremap <silent> <leader>ff :FuzzyFiles<CR>
-nnoremap <silent> <leader>fg :FuzzyGrep<CR>
-nnoremap <silent> <leader>fh :FuzzyHelp<CR>
-nnoremap <silent> <leader>fi :FuzzyInBuffer<CR>
-nnoremap <silent> <leader>fm :FuzzyMru<CR>
-nnoremap <silent> <leader>fp :FuzzyPrevious<CR>
-nnoremap <silent> <leader>fq :FuzzyQuickfix<CR>
-nnoremap <silent> <leader>fr :FuzzyMruCwd<CR>
+set termguicolors
+let g:tokyonight_style = 'night'
+let g:tokyonight_enable_italic = 1
+colorscheme tokyonight
+
+nnoremap <silent> <leader>ff :Files<CR>
