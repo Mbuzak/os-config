@@ -42,5 +42,9 @@ kdenlive
 dia
 inkscape
 
+### KDE
+spectacle
+okular
+
 ## C/C++ development
 cmake
