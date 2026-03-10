@@ -16,3 +16,7 @@ My OS configuration
 2. Update fonts `fc-cache -fv`
 3. Lauch Vim and Alacritty configuration - run `./config.sh`
 4. Open `vim` and type `:PlugInstall`
+
+## TODO
+- liquidprompt
+- vim `after/syntax`
